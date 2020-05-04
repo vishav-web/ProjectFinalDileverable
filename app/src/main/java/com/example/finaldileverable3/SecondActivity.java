@@ -1,0 +1,123 @@
+package com.example.finaldileverable3;
+
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Adapter;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class SecondActivity extends AppCompatActivity {
+    RecyclerView recyclerView;
+    String s1[] , s2[];
+    int Images []= {R.drawable.mad1 ,R.drawable.mad3 , R.drawable.mad45 , R.drawable.mad432, R.drawable.mad5 , R.drawable.mad6} ;
+
+    int s10;
+    TextView s;
+    Button btn;
+String n1,n2,n3,n4;
+
+
+    String fullnamelogin;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_second);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        recyclerView = findViewById(R.id.recyclerView);
+
+        s1 = getResources().getStringArray(R.array.Title);
+        s2 = getResources().getStringArray(R.array.price);
+
+
+        Intent intent2=getIntent();
+        fullnamelogin=intent2.getStringExtra("name");
+        getSupportActionBar().setTitle(fullnamelogin);
+
+n1 = getIntent().getExtras().getString("profile_name");
+n2 = getIntent().getExtras().getString("email");
+n3 = getIntent().getExtras().getString("phone");
+n4 = getIntent().getExtras().getString("student_id");
+
+
+        MyAdapter adapter = new MyAdapter(this, s1 , s2, Images);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+
+
+
+
+
+
+
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+                startActivity(new Intent(SecondActivity.this, Shopping_cart.class));
+            }
+        });
+    }
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_layout, menu);
+        return true;
+    }
+
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.profile) {
+            Intent myintent = new Intent(SecondActivity.this, ProfileActivity.class);
+            myintent.putExtra("profile_name" , n1);
+            myintent.putExtra("email" , n2);
+            myintent.putExtra("phone" , n3);
+            myintent.putExtra("student_id" , n4);
+            startActivity(myintent);
+        }
+        if (id == R.id.contact) {
+            Intent myintent = new Intent(SecondActivity.this, ContactActivity.class);
+            startActivity(myintent);
+            return true;
+        }
+        if (id == R.id.setting) {
+            Intent myintent = new Intent(SecondActivity.this, settingActivity.class);
+            startActivity(myintent);
+            return true;
+        }
+        if (id == R.id.About) {
+            Intent myintent = new Intent(SecondActivity.this, AboutUs.class);
+            startActivity(myintent);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+}
+
+

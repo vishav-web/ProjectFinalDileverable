@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">FinalDileverable3</string>
+
+
+    <string name="BrandName">AHFE.ca</string>
+    <string name="item">Items</string>
+    <string name="itemPara1">BIC SCSMP41 SOFT FEEL BALL PENS</string>
+    <string name="itempara2">RETRACTABLE, BLUE, MEDIUM POINT,</string>
+    <string name="item1Price">CDN$3.45</string>
+    <string name="moreinfo">More</string>
+    <string name="bookName">HARRY POTTER</string>
+    <string name="bookpara2">AND THE PHILOSOPHER\'S STONE.</string>
+    <string name="bookAuthor">BY J.K. ROWLING</string>
+    <string name="bookPrice">CDN$10.22</string>
+    <string name="moreInfo2">More</string>
+    <string name="bookPara1">XIDUOBAO B6 SIZE PU LEATHER</string>
+    <string name="bookPara2">WRITING JOURNAL NOTEBOOK FOR</string>
+    <string name="bookPara3">STUDENTS, SIZE:5x6, 64 SHEETS.</string>
+    <string name="notebookprice">CDN$24.99</string>
+    <string name="moreInfo3">More</string>
+    <string name="item4pra">KINGOM 7 STORAGE COMPARTMENTS</string>
+    <string name="itemPara2">MUTIFUNCTIONAL OFFICE DESK</string>
+    <string name="item4para3">SUPPLIES ORGANIZER (BLUE).</string>
+    <string name="item4Price">CDN$39.99</string>
+    <string name="moreInfo4">More</string>
+    <string name="view_order">VIEW ORDER</string>
+    <string name="item1Dec">-</string>
+    <string name="item1inc">+</string>
+    <string name="item2dec">-</string>
+    <string name="item2inc">+</string>
+    <string name="item1Qua">0</string>
+    <string name="item3Dec">-</string>
+    <string name="item3Inc">+</string>
+    <string name="item3Qua">0</string>
+    <string name="item4Dec">-</string>
+    <string name="item4inc">+</string>
+    <string name="item4Qua">0</string>
+    <string name="item2Qua">0</string>
+    <string name="ProductDetailsPara2"><![CDATA[> Blue color medium point]]></string>
+    <string name="productDetailsPara3"><![CDATA[> 4-pack]]></string>
+    <string name="activity1Decp">BIC SCSMP41 SOFT FEEL BALL PENS</string>
+    <string name="activity1Decp2">RETRACTABLE, BLUE, MEDIUM POINT,4-PACK</string>
+    <string name="logoName1">AHFE.ca</string>
+    <string name="textPriceOfItem1">Price:</string>
+    <string name="item1PriceInMore">CDN$3.45</string>
+    <string name="shipping1">Free Shipping Available</string>
+    <string name="productDetails1"><![CDATA[> Ball Pen Retractable]]></string>
+    <string name="productDetails4"><![CDATA[> ISBN-13: 978-1408866191]]></string>
+    <string name="item1Productdetails">Product Details:-</string>
+    <string name="backItem1button">back</string>
+    <string name="item2ParaInsidemore">J.K. Rowling (Author)</string>
+    <string name="logo2">AHFE.ca</string>
+    <string name="item2Para2">Harry Potter and the Philosopher\'s Stone (Irish) (Irish)</string>
+    <string name="item2Para3">Hardcover – Jan. 29 2015</string>
+    <string name="PriceItem2">Price:</string>
+    <string name="item2Price">CDN$10.22</string>
+    <string name="shipping2">Free Shipping Available</string>
+    <string name="ProductdetailsOfItem2">Product details</string>
+    <string name="Productdetails1"><![CDATA[> Hardcover: 272 pages]]></string>
+    <string name="Productdetails2"><![CDATA[> ISBN-10: 1408866196]]></string>
+    <string name="productdetails3"><![CDATA[> Product Dimensions: 13.8 x 2.1 x 21 cm]]></string>
+    <string name="backButtonOfItem2">Back</string>
+    <string name="logo3">AHFE.ca</string>
+    <string name="paraOfitem3">XIDUOBAO B6 Size PU Leather Writing Journal Notebook Notepad ournal Bulk Pack College Ruled Journal for Students,</string>
+    <string name="para2OfItem3">Size: 5 X 6, 64 Sheet/128 Pages(Set of 4,Random Color)</string>
+    <string name="pricetextofItem3">Price:</string>
+    <string name="priceOfitem3">CDN$24.99</string>
+    <string name="shipping3">Free Shipping Available</string>
+    <string name="productDetails3">Product details:-</string>
+    <string name="productDetailsOfitem3"><![CDATA[> LEATHER COVER: Made of high quality PU leather, soft in]]></string>
+    <string name="productdetailsOfitem3">hands, sturdy and durable. Strong Binding.</string>
+    <string name="prDetails3"><![CDATA[> SMOOTH PAPER: Thick paper, writes smoothly. No]]></string>
+    <string name="proDetails3">feathering and bleeding, suit for most pens.</string>
+    <string name="back3">Back</string>
+    <string name="logo4">AHFE.ca</string>
+    <string name="Para1OfItem4">KINGOM™ 7 Storage Compartments Multifunctional PU Leather Office Desk Organizer,Desktop Stationery Storage Box Collection, Business Card.</string>
+    <string name="Para1ofItem5">CooholeStationery and Accessories Women Letter Print Shoulder Bag Fashion Trend Chain Backpack</string>
+    <string name="priceOfItem4">Price:</string>
+    <string name="dollerOFItem4">CDN$39.99</string>
+    <string name="shipping4">Free Shipping Available</string>
+    <string name="productdetails4">Product Details:-</string>
+    <string name="productDetailsPara1"><![CDATA[> Stylish Design and Sturdy Construction- The desk organizer surface is made of high quality PU leather with MDF struction.]]></string>
+    <string name="producrdetailsPra2"><![CDATA[> Extra-capacity- Hold a bounty of office supplies, Approx 11 inches long by 5.7 inches wide by 5.7 inches high.]]></string>
+    <string name="back4">Back</string>
+    <string name="t1">TODO</string>
+    <string name="t2">TODO</string>
+    <string name="t3">TODO</string>
+    <string name="t4">TODO</string>
+    <string name="t5">TODO</string>
+    <string name="t6">TODO</string>
+    <string name="t7">TODO</string>
+    <string name="t8">TODO</string>
+    <string name="s1">Guest User</string>
+
+    <string name="t9">TODO</string>
+    <string name="t10">TODO</string>
+    <string name="t11">TODO</string>
+    <string name="t12">TODO</string>
+    <string name="t13">TODO</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="s2">Click here to shop if you are a student</string>
+
+
+    <string-array name="Title">
+        <item>BIC SCSMP41-BLU Soft Feel Ball Pens Retractable, Blue, Medium Point, 4-pack</item>
+        <item>Harry Potter and the Philosophers Stone (Welsh): Harri Potter a maen yr Athronydd (Welsh) (Welsh) Hardcover  Jan. 14 2016</item>
+        <item>XIDUOBAO Writing Journal Notebook, Daily Notepad Diary for Students, A5 Size, 64 Sheets/128 Pages, Pack of 4, Random Colors</item>
+        <item>KINGOM 7 Storage Compartments Multifunctional PU Leather Office Desk Organizer,Desktop Stationery Storage Box Collection.</item>
+        <item>CooholeStationery and Accessories Women Letter Print Shoulder Bag Fashion Trend Chain Backpack</item>
+        <item>AmazonBasics Hanging Organizer File Folders - Letter Size, Assorted Colors, 25-Pack</item>
+    </string-array>
+
+
+    <string-array name="price">
+        <item>CDN$3.45</item>
+        <item>CDN$10.22</item>
+        <item>CDN$24.99</item>
+        <item>CDN$39.99</item>
+        <item>CDN$23.22</item>
+        <item>CDN$16.99</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="continueshop">GO BACK CONTINUE SHOP</string>
+    <string name="paraItem4">Coohole-Stationery Accessories Women Letter Print Shoulder Bag Fashion Trend Chain Backpack</string>
+    <string name="item5price">Price:</string>
+    <string name="item5doller">CDN$23.22</string>
+    <string name="shippingitem5">Free shipping Available</string>
+    <string name="item5details">Product Details:-</string>
+    <string name="detailItem5"><![CDATA[>The bag is perfect in workmanship. The elegant design can show your beautiful temperament.]]></string>
+    <string name="itemDetail5"><![CDATA[>It is very suitable for Wedding , party, ball, daily casual wearing, travel, office occasion.]]></string>
+    <string name="logo5">AHFE.ca</string>
+    <string name="item6Description">AmazonBasics Hanging Organizer File Folders - Letter Size, Assorted Colors, 25-Pack</string>
+    <string name="item6PriceTag">Price:</string>
+    <string name="item6Price">CDN$16.99</string>
+    <string name="item6Shipping">Free Shipping Available</string>
+    <string name="item6details">Product Details:-</string>
+    <string name="item6detail1"><![CDATA[>25 letter-size hanging file folders to keep your files organized and crisp]]></string>
+    <string name="item6detail2"><![CDATA[>Colors include red, orange, yellow, green, and blue (5 each) for quick identification]]></string>
+
+
+</resources>
+
+
